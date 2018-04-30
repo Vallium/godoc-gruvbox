@@ -1,0 +1,196 @@
+html { background-color: #282828 !important; }
+body {
+    color: #ebddb2 !important;
+    background-color: #282828 !important;
+}
+h4 { margin-top: 20px; }
+.container { max-width: 728px; }
+
+#x-projnav {
+    min-height: 20px;
+    margin-bottom: 20px;
+    background-color: #504945 !important;
+    padding: 9px;
+    border-radius: 3px;
+}
+
+.text-muted {
+    color: #ebddb2 !important;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #504945 !important;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #504945 !important;
+}
+
+.panel-group .panel {
+    background: #504945 !important;
+    border-color: #504945 !important;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px solid #504945 !important;
+}
+
+
+#x-footer {
+    padding-top: 14px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    background-color: #504945 !important;
+    border-top-style: solid;
+    border-top-width: 1px;
+
+}
+
+.highlighted {
+    background-color: #d65d0e !important;
+}
+
+#x-pkginfo {
+    margin-top: 25px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.well {
+    background: #504945 !important;
+    border-color: #504945 !important;
+}
+
+.jumbotron {
+    background: #504945 !important;
+}
+.jumbotron h2 {
+    /* color: #ebddb2 !important ; */
+    color: #d65d0e !important;
+}
+
+.btn-default {
+    color: #ebddb2 !important;
+    background: #458588 !important;
+    border-color: #458588 !important;
+}
+
+code {
+    background-color: inherit;
+    border: none;
+    color: #ebddb2 !important;
+    background: #3c3836 !important;
+    padding: 0;
+}
+
+pre {
+    color: #ebddb2 !important;
+    background: #3c3836 !important;
+    border: 1px solid #504945 !important;
+    overflow: auto;
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+.funcdecl > pre {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+pre .com {
+    color: #928374 !important;
+}
+
+.decl {
+    position: relative;
+}
+
+.decl > a {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+    border: 1px solid #ccc;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.decl > a:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+.decl:hover > a {
+    display: block;
+}
+
+a, .navbar-default .navbar-brand {
+    color: #83a598 !important;
+}
+
+.navbar-default, #x-footer {
+    background-color: #504945 !important;
+    border-color: #504945 !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #928374 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: transparent;
+}
+
+a.permalink {
+    display: none;
+}
+
+a.uses {
+    display: none;
+    color: #666;
+    font-size: 0.8em;
+}
+
+h1:hover .permalink, h2:hover .permalink, h3:hover .permalink, h4:hover .permalink, h5:hover .permalink, h6:hover .permalink, h1:hover .uses, h2:hover .uses, h3:hover .uses, h4:hover .uses, h5:hover .uses, h6:hover .uses {
+    display: inline;
+}
+
+@media (max-width : 768px) {
+    .form-control {
+        font-size:16px;
+    }
+}
+
+.form-control {
+    background: #ebddb2 !important;
+    color: #282828 !important;
+    border: 1px solid #458588 !important;
+}
+
+.synopsis {
+  opacity: 0.87;
+}
+
+.additional-info {
+    display: block;
+    opacity: 0.54;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}

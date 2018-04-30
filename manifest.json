@@ -22,6 +22,10 @@
     "content_scripts": [{
         "css": ["gruvbox-golang.css"],
         "matches": ["https://golang.org/*"]
+        },
+        {
+        "css": ["gruvbox-godoc.css"],
+        "matches": ["https://godoc.org/*"]
         }],
     "permissions": [
         "tabs",
