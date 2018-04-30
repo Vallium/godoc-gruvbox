@@ -1,0 +1,30 @@
+
+{
+    "manifest_version": 2,
+    "name" :"GruvboxDocs.go",
+    "version" :"1.0",
+    "description" :"Gruvbox theme for golang.org",
+    "icons": {
+        "19": "icon/favicon.png",
+        "38": "icon/favicon.png",
+        "48": "icon/favicon.png",
+        "128": "icon/favicon.png"
+      },
+    "browser_action" :
+        {
+            "default_icon": {
+                "19": "icon/favicon.png",
+                "38": "icon/favicon.png",
+                "48": "icon/favicon.png",
+                "128": "icon/favicon.png"
+            }
+        },
+    "content_scripts": [{
+        "css": ["gruvbox-golang.css"],
+        "matches": ["https://golang.org/*"]
+        }],
+    "permissions": [
+        "tabs",
+        "activeTab"
+      ]
+}
