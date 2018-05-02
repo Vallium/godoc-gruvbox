@@ -201,7 +201,8 @@ svg {
 	fill: #ebdbb2 !important;
 }
 
-#content .date {
+#content .date,
+div#blog .when {
 	color: #d79921 !important;
 }
 
