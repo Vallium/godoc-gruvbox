@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background-color: #282828 !important;
+	line-height: 1.3em;
+}
+#banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background-color: #504945 !important;
+}
+#head {
+	color: #83a598 !important;
+}
+div#controls input,
+div#controls #importsBox,
+#aboutControls input {
+	color: #ebdbb2 !important;
+	border: 1px solid #458588 !important;
+	background: #83a598 !important;
+}
+a {
+    color: #83a598 !important;
+}
+#wrap, #about {
+    padding: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+	background: #282828 !important;
+	color: #ebdbb2 !important;
+}
+.lines div {
+    padding-right: 5px;
+    color: #504945 !important;
+}
+#code {
+    color: #ebdbb2 !important;
+    background: inherit;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    resize: none;
+    wrap: off;
+    float: right;
+}
+#output {
+    border-top: 1px solid #458588 !important
+}
+#output .stdout {
+    color: #ebdbb2 !important;
+}
+#output .stderr, #output .error {
+	color: #cc241d !important;
+}
+.lineerror {
+	background: #d79921 !important;
+}
