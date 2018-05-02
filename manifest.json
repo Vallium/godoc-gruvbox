@@ -21,7 +21,13 @@
         },
     "content_scripts": [{
         "css": ["gruvbox-golang.css"],
-        "matches": ["https://golang.org/*"]
+        "matches": [
+            "https://golang.org/*",
+            "https://blog.golang.org/*"
+        ]},
+        {
+            "css": ["gruvbox-playground.css"],
+            "matches": ["https://play.golang.org/*"]
         },
         {
         "css": ["gruvbox-godoc.css"],

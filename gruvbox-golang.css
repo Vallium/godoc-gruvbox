@@ -145,7 +145,29 @@ dd {
 div#nav table td {
 	vertical-align: top;
 }
-
+a.downloadBox {
+    display: block;
+    color: #222;
+    border: 1px solid #458588 !important;
+    border-radius: 5px;
+    background: #504945 !important;
+    width: 280px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.downloadBox .filename {
+    color: #d79921 !important;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+table.codetable tr:nth-child(2n), table.codetable tr.first {
+    background-color: #504945 !important;
+}
+table.codetable tr {
+    background-color: #3c3836 !important;
+}
 
 #pkg-index h3 {
 	font-size: 16px;
@@ -173,6 +195,23 @@ div#nav table td {
 .top-heading a {
 	color: #83a598 !important;
 	text-decoration: none;
+}
+
+svg {
+	fill: #ebdbb2 !important;
+}
+
+#content .date {
+	color: #d79921 !important;
+}
+
+div#sidebar {
+	float: right;
+	padding-left: 20px;
+	width: 40%;
+	max-width: 250px;
+	background: #504945 !important;
+	margin: 20px 0 20px 20px;
 }
 
 div#topbar {
@@ -608,7 +647,7 @@ div.play .buttons a {
 	cursor: pointer;
 }
 .output .stderr {
-	color: #933;
+	color: #cc241d !important;
 }
 .output .system {
 	color: #999;
@@ -627,9 +666,9 @@ div#playground {
 	padding: 0 10px 10px 10px;
 	z-index: 1;
 	text-align: left;
-	background: #E0EBF5;
+	background: #928374 !important;
 
-	border: 1px solid #B0BBC5;
+	border: 1px solid #458588 !important;
 	border-top: none;
 
 	-webkit-border-bottom-left-radius: 5px;
