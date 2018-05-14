@@ -21,11 +21,11 @@ pre .highlight,
 pre .highlight-comment,
 pre .selection-highlight,
 pre .selection-highlight-comment {
-	background: #FFFF00;
+	background: #d79921 !important;
 }
 pre .selection,
 pre .selection-comment {
-	background: #FF9632;
+	background: #d65d0e !important;
 }
 pre .ln {
 	color: #928374 !important;
@@ -183,7 +183,7 @@ table.codetable tr {
 	padding-right: 10px;
 }
 .alert {
-	color: #AA0000;
+	color: #cc241d !important;
 }
 
 .top-heading {
